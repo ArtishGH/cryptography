@@ -3,7 +3,6 @@
 import { useState } from "react";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { FaTimes } from "react-icons/fa"; // Using FaTimes for the close icon
-import { MdSlideshow } from "react-icons/md"; // Using MdSlideshow for presentation icons
 import TaskOne from "./components/TaskOne";
 import TaskTwo from "./components/TaskTwo";
 import TaskThree from "./components/TaskThree";
