@@ -10,7 +10,7 @@ const credentials: { [key: string]: string } = {
 
 const nicknames = Object.keys(credentials);
 
-const TaskOne = ({ onNext }: { onNext: () => void }) => {
+const TaskOne = () => {
   const [nickname, setNickname] = useState<string>("");
   const [password, setPassword] = useState("");
   const [flag, setFlag] = useState("");

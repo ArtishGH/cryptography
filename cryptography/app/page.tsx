@@ -13,8 +13,8 @@ const IndexPage = () => {
   const [isOpen, setIsOpen] = useState(false); // State to manage the dropdown menu
 
   const renderStageContent = () => {
-    if (stage === 1) return <TaskOne onNext={() => setStage(3)} />;
-    if (stage === 2) return <TaskTwo onNext={() => setStage(3)} />;
+    if (stage === 1) return <TaskOne />;
+    if (stage === 2) return <TaskTwo />;
     if (stage === 3) return <TaskThree />;
   };
 

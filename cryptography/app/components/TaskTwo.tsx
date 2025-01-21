@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import CryptoJS from "crypto-js";
 
-const TaskTwo = ({ onNext }: { onNext: () => void }) => {
+const TaskTwo = () => {
   const [hash, setHash] = useState<string>("");
   const [encodingType, setEncodingType] = useState<string>("");
   const [userInput, setUserInput] = useState<string>("");
