@@ -69,26 +69,6 @@ const IndexPage = () => {
                   ℹ️
                 </a>
               </li>
-              <li>
-                <a
-                  href="https://docs.google.com/presentation/d/1bZsrgE2r1M3D7ikm6yZzjPpHmjVe1fhGQ7jpJeHoR-A"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="flex justify-center hover:text-blue-300"
-                >
-                  ℹ️
-                </a>
-              </li>
-              <li>
-                <a
-                  href="https://docs.google.com/presentation/d/1dGwLjRk7_z7E0jNSgj7PC_XfyoxFq0r8e8DgZk5Rulw"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="flex justify-center hover:text-blue-300"
-                >
-                  ℹ️
-                </a>
-              </li>
             </ul>
           </div>
         )}
