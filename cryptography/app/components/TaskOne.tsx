@@ -1,11 +1,16 @@
 import { useEffect, useState } from "react";
 
 const credentials: { [key: string]: string } = {
-  gontarek: "password123",
-  siemlak: "mypassword",
-  prejsuuu: "secret123",
-  mattkozlowski: "myspecular",
-  technischools: "security",
+  olson: "prawojazdy",
+  leszek: "MrBoss",
+  jakubleszcz: "Frytki123",
+  jacobbrim: "ChlebZMaslem",
+  przemo: "Koza2025",
+  gontarek: "NiePodrabiaj",
+  smielak: "OSPFinalBoss",
+  prejsuuu: "CzekoladaXD",
+  mattkozlowski: "KozakWiadomo",
+  technischools: "Kod1234XD",
 };
 
 const nicknames = Object.keys(credentials);
